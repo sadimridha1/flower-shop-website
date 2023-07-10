@@ -287,6 +287,7 @@
    padding: 30px;
    border-radius: 10px;
    box-shadow: 6px 8px #21c23b;
+   margin-bottom: 50px;
 }
 
 .customar-review .div1 .img{
@@ -323,4 +324,46 @@ hr{
     padding: 1px 0px;
     /* color: #21c23b; */
     background-color: #21c23b;
+}
+
+/* contact section css */
+.contact{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 1177px;
+    margin: auto;
+    margin-bottom: 60px;
+    /* padding-bottom: 60px; */
+}
+
+.contact .contact-inf{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.contact .contact-inf h3{
+    font-size: 40px;
+}
+.contact .contact-inf p{
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.contact .contact-inf input{
+    /* padding: 10px 175px; */
+    width: 566px;
+    padding: 10px 5px;
+    margin-left: 30px;
+}
+
+.contact .contact-inf .subcribe-btn{
+    padding: 10px 21px;
+    background-color: #21C23B;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 17px;
 }

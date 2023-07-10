@@ -138,3 +138,51 @@
 .intro .div{
     text-align: center;
 }
+
+
+/* Hot Deal section CSS */
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 815px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.hot-deal .hot-deal-des h4{
+    font-size: 35px;
+    text-align: center;
+}
+
+.hot-deal .hot-deal-des{
+    text-align: center;
+}
+
+.hot-deal .hot-deal-des .off{
+    color: #E55473;
+}
+
+.hot-deal .hot-deal-des p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.hot-deal .hot-deal-image{
+    padding-left: 30px;
+}
+.hot-deal .hot-deal-image .imgg{
+    width: 270px;
+}
+
+.hot-deal .hot-deal-btn{
+    background-color:#E55473;
+    color: #fff;
+    padding: 12px 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    /* text-align: center; */
+}

@@ -270,3 +270,57 @@
 }
 
 
+/* customar review section css */
+.customar-review{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 70px 0px; */
+    width: 1193px;
+    margin: auto;
+    padding-bottom: 70px;
+    padding-top: 60px;
+}   
+
+.customar-review .div1{
+   width: 220px;
+   background-color: #cfcfcf;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 6px 8px #21c23b;
+}
+
+.customar-review .div1 .img{
+    width: 60px;
+    border-radius: 50px;
+} 
+
+.customar-review .div1 p{
+    text-align: left;
+}
+
+.customar-review .div1 .review-btn{
+    padding: 5px 11px;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 8px 0px 8px 0px;
+    border: none;
+    background-color: #21c23b;
+    color: #fff;
+}
+
+.review{
+    text-align: center;
+    font-size: 40px;
+    color: #21c23b;
+    /* padding-bottom: 50px; */
+    padding-bottom: 10px;
+}
+
+hr{
+    width: 170px;
+    text-align: center;
+    margin: auto;
+    padding: 1px 0px;
+    /* color: #21c23b; */
+    background-color: #21c23b;
+}

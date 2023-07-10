@@ -146,9 +146,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 815px;
-    margin: auto;
-    padding-bottom: 100px;
+    /* max-width: 815px;
+    margin: auto; */
+    padding: 35px 210px;
+    background-color: #FEF6F8;
+    margin-bottom: 90px;
 }
 
 .hot-deal .hot-deal-des h4{
@@ -188,20 +190,41 @@
     /* text-align: center; */
 }
 
+/* instragram section  css */
+.instragram{
+    text-align: center;
+    max-width: 580px;
+    margin: auto;
+    padding-bottom: 50px;
+}    
+
+.instragram h3{
+    font-size: 35px;
+}
+
+.instragram p{
+    padding-top: 15px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
 /* Bonas section css */
 .bonas{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-bottom: 80px;
-
+    max-width: 1159px;
+    margin: auto;
 }
 
 .bonas .extra-bonas{
     position: relative;
-    margin: 0px 8px;
 }
+
 .bonas .extra-bonas .b-img{
-    width: 320px;
+    width: 280px;
 }
 
 .bonas li{
@@ -245,3 +268,5 @@
     text-align: center;
     padding-top: 9px;
 }
+
+

@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* main section start */
@@ -18,7 +19,7 @@
 
 .banar .banar-des{}
 .banar .banar-des h3{
-    font-size: 80px;
+    font-size: 70px;
     color: #272727;
 }
 
@@ -185,4 +186,62 @@
     border: none;
     border-radius: 10px;
     /* text-align: center; */
+}
+
+/* Bonas section css */
+.bonas{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px;
+
+}
+
+.bonas .extra-bonas{
+    position: relative;
+    margin: 0px 8px;
+}
+.bonas .extra-bonas .b-img{
+    width: 320px;
+}
+
+.bonas li{
+    text-align: center;
+    list-style: none;
+    padding-top: 18px;
+}
+
+.bonas .extra-bonas .img1{
+ 
+}
+
+.bonas .div1{
+    width: 85px;
+    height: 36px;
+    background-color: #E55473;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 8px 0px 8px 0px;
+}
+
+.bonas .div1 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.bonas .div3{
+    width: 85px;
+    height: 36px;
+    background-color: #21c23b;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    border-radius: 8px 0px 8px 0px;
+}
+
+.bonas .div3 p{
+    color: #fff;
+    text-align: center;
+    padding-top: 9px;
 }

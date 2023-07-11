@@ -299,6 +299,12 @@
     text-align: left;
 }
 
+.customar-review h4{
+    padding: 7px 0px;
+    font-size: 20px;
+    color: #E55473;
+}
+
 .customar-review .div1 .review-btn{
     padding: 5px 11px;
     text-align: left;
@@ -337,6 +343,7 @@ hr{
     margin: auto;
     margin-bottom: 60px;
     /* padding-bottom: 60px; */
+    border-radius: 7px;
 }
 
 .contact .contact-inf{
@@ -355,15 +362,61 @@ hr{
 .contact .contact-inf input{
     /* padding: 10px 175px; */
     width: 566px;
-    padding: 10px 5px;
+    padding: 15px 9px;
     margin-left: 30px;
+    border: none;
 }
 
 .contact .contact-inf .subcribe-btn{
-    padding: 10px 21px;
+    padding: 12px 22px;
     background-color: #21C23B;
     border: none;
     color: #fff;
     border-radius: 7px;
     font-size: 17px;
+}
+
+/* footer section start */
+
+.flower-footer{
+    background-color: #111010;
+    padding: 114px 2px;
+}
+
+.flower-footer .footer-des{
+    text-align: center;
+}
+
+.flower-footer .footer-des .div{
+    width: 170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-footer .horigental{
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: -10px;
+}
+
+.flower-footer .footer-des h3{
+    color: #fff;
+    font-size: 40px;
+}
+
+.flower-footer .F{
+    color: #E55473;
+}
+
+.flower-footer .footer-des p{
+    color: #fff;
+    padding: 16px 0px;
+    line-height: 24px;
+}
+
+.flower-footer .footer-des .copy-footer{
+    font-size: 12px;
 }
